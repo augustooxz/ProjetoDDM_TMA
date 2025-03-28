@@ -1,0 +1,96 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Matriz"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Uma matriz é um tipo de tabela que organiza dados em linhas e colunas. Cada elemento é identificado pela sua posição dentro desse arranjo retangular."
+            android:textSize="18sp"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipos de Matrizes"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Matriz Linha: possui apenas uma linha.\nExemplo: [2  1  4  -5]"
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Matriz Coluna: possui apenas uma coluna.\nExemplo: [1] [2] [3]"
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Matriz Nula: todos os elementos são iguais a zero.\nExemplo: [0  0  0] [0  0  0]"
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Matriz Identidade: possui 1s na diagonal principal e 0s no restante.\nExemplo: [1  0  0] [0  1  0] [0  0  1]"
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Operações com Matrizes"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Soma e Subtração: Só é possível com matrizes do mesmo tamanho.\nExemplo:\n| 2  5 |   +   | 1  3 |   =   | 3  8 |\n| 0 -1 |        | 4  2 |   =   | 4  1 |"
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Multiplicação de Matrizes: Para multiplicar, o número de colunas da primeira deve ser igual ao número de linhas da segunda.\nExemplo:\n| 1  2 |   ×   | 5  6 |   =   | 19  22 |\n| 3  4 |         | 7  8 |       | 43  50 |"
+            android:textSize="18sp"
+            android:paddingBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnAbrirQuiz"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Ir para o Quiz"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            />
+    </LinearLayout>
+</ScrollView>

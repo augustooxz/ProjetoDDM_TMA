@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/backgroundColor"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/question_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/option_1"
+        style="@style/QuizButton"
+        android:backgroundTint="@color/buttonBackgroundColor"
+        android:text="A" />
+
+    <Button
+        android:id="@+id/option_2"
+        style="@style/QuizButton"
+        android:backgroundTint="@color/buttonBackgroundColor"
+        android:text="B" />
+
+    <Button
+        android:id="@+id/option_3"
+        style="@style/QuizButton"
+        android:backgroundTint="@color/buttonBackgroundColor"
+        android:text="C" />
+
+    <Button
+        android:id="@+id/option_4"
+        style="@style/QuizButton"
+        android:backgroundTint="@color/buttonBackgroundColor"
+        android:text="D" />
+</LinearLayout>
